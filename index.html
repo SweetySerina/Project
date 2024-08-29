@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container-1">
+        <h1>Why Choose GreenThumb?</h1>
+
+<div class="container-2">
+    
+  <div class="card">
+    <i class="icon fas fa-clock"></i>
+    <h3>Experience</h3>
+    <p>We have over 20 years of experience in the landscaping industry.</p>
+  </div>
+  <div class="card">
+    <i class="icon fas fa-trophy"></i>
+    <h3>Quality</h3>
+    <p>Our team is committed to delivering high-quality work that exceeds your expectations.</p>
+  </div>
+  <div class="card">
+    <i class="icon fas fa-hammer"></i>
+    <h3>Reliability</h3>
+    <p>You can count on us to show up on time and complete your project as promised.</p>
+  </div>
+  <div class="card">
+    <i class="icon fas fa-check"></i>
+    <h3>Expertise</h3>
+    <p>From design to installation, we have the skills and knowledge needed to deliver exceptional results.</p>
+  </div>
+  <div class="card">
+    <i class="icon fas fa-users"></i>
+    <h3>Customer Service</h3>
+    <p>Your satisfaction is our top priority, and we'll go the extra mile to ensure you're happy with our work.</p>
+  </div>
+  <div class="card">
+    <i class="icon fa-solid fa-shield"></i>
+    <h3>Licensed & Insured</h3>
+    <p>We are a licensed and insured landscape company, so you can have confidence in our services.</p>
+  </div>
+</div>
+    </div>
+    <div class="container" id="contact-us">
+        <h2>Contact Us</h2>
+        <h4>Get in touch</h4>
+
+        
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <div class="form-full">
+                <input type="hidden" name="access_key" value="47f00ae2-4e94-466f-a1de-2e014ffd158b">
+            <div class="row">
+            <div class="form-group" id="side-1">
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required spellcheck="false">
+            </div>
+            <div class="form-group" id="side-2">
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required spellcheck="false">
+            </div>
+        </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="What is your requirement?"></textarea>
+            </div>
+        </div>
+            <div class="form-group sameline">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <p class="checkbox-content">I would like to receive marketing and promotional communication from Green Thumb</p>
+            </div>
+            <button type="submit" onclick="sendMail()">Submit</button>
+        </form>
+       
+         
+        <footer>
+        <div class="footer">
+            <small>
+            <div class="row-2">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Accessibility</p>
+        </div>
+            <p>&copy; 2023 Green Thumb. All rights reserved.</p>
+        </small>
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>

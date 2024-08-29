@@ -1,0 +1,249 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
+}
+
+.container {
+    
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 30px;
+    
+}
+
+.form-full{
+    max-width: 500px;
+}
+.row{
+    display: flex;
+}
+h2,h4 {
+    
+    margin-bottom: 20px;
+    color: #000000;
+}
+#side-1,#side-2{
+    flex: 1;
+}
+#side-1{
+    margin-right: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sameline{
+    display: flex;
+}
+.checkbox-content{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #000000;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cad7e2;
+    background-color: #cad7e2;
+   border-color: #cad7e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    outline: none;
+}
+#message{
+    height: 100px;
+}
+::placeholder{
+    color: #6983a3;
+    
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 100px;
+    transition: background-color 0.3s ease;
+    width: 10%;
+    float: right;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+footer {
+   align-items: center;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 14px;
+    color: #6983a3;
+    z-index: 10;
+}
+
+.container-1 {
+    max-width: 1000px;
+    
+    margin: 0px auto;
+    
+    padding: 30px;
+    
+}
+.container-2 {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 15px;
+    overflow: hidden;
+    
+    
+  }
+  
+  .card {
+    width: 150px;
+    height: 250px;
+    padding: 15px;
+    
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid#cad7e2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    line-height: 1.5;
+    color: #6b93b4;
+  }
+  
+  .icon {
+    font-size: 25px;
+   color: #000000;
+   margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media (max-width:550px){
+    .row-2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        .checkbox-content{
+        
+        font-size: 13px;
+
+}}
+@media (min_width:320px) , (max-width:480px){
+    .row-2{
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 12px;
+
+    }
+    
+    .checkbox-content{
+        
+        font-size: 13px;
+        color: #000000;
+    }
+    .row{
+        display: block;
+    }
+    #side-1{
+        margin-right: 0px;
+    }
+    .container-2{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    }
+}
+@media only screen and (max-width:300px)
+{
+    
+        .container-2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            
+           
+        }
+}
+@media only screen and (min-width:300px)
+{
+    
+        .container-2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            
+           
+        }
+}
+@media only screen and (min-width:650px)
+{
+    
+    .container-2{
+        display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 15px;
+       
+    }
+}
+@media only screen and (min-width:870px)
+{
+    
+        .container-2{
+            display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+           
+        }
+}
+@media only screen and (min-width:1040px)
+{
+    .container-2{
+        display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 15px;
+    }
+}
+
+   
+
+    
